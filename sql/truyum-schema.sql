@@ -1,12 +1,10 @@
+-- 870116 MUNA PARIDA
 -- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
--- -----------------------------------------------------
--- Schema truyum
--- -----------------------------------------------------
 
 -- -----------------------------------------------------
 -- Schema truyum
@@ -38,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `truyum`.`menu_item` (
   PRIMARY KEY (`menu_id`))
 ENGINE = InnoDB;
 
--- 870116 MUNA PARIDA
+
 -- -----------------------------------------------------
 -- Table `truyum`.`cart`
 -- -----------------------------------------------------
